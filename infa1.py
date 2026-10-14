@@ -1,4 +1,5 @@
 import math
+print("Задача 1")
 print("Введите x:")
 x=float(input())
 print("Введите y:")
@@ -13,3 +14,7 @@ else:
     else:
         z=math.log2(x + math.sqrt(y)/(x**2))
         print('Ваш ответ:', z)
+
+
+
+print("Задача 2")
