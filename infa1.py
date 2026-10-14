@@ -18,3 +18,13 @@ else:
 
 
 print("Задача 2")
+print("Введите x:")
+x = float(input())
+a = 1.5
+if x <1:
+    y = 1.5 * (math.cos(x)**2)
+elif x == 1:
+    y=1.8 * a * x
+elif x>1:
+    y=((x - 2)**2) + a
+print("Ваш ответ:", y)
