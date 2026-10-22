@@ -57,7 +57,7 @@ while True:
     print("Ошибка: требуется X0 < X1 и dX > 0. Повторите ввод еще раз.")
 
 step=int(round((X1-X0) / dX))
-for i range(step+1):
+for i in range(step+1):
     x = X0 + i * dX
     if x < 0:
         z=x**2
